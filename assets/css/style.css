@@ -1804,8 +1804,12 @@ span{
   color: var(--gtxt);
   font-weight: 400;
 }
-
-
+.topHead{
+  margin: 40px 0;
+}
+.bggray{
+  background-color: #fafafa;
+}
 .banner {
   background-color: #5c5c5c;
   width: 90%;
