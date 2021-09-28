@@ -1813,7 +1813,7 @@ span{
   margin: 40px 0;
 }
 .inHead{
-  margin: 20px 0;
+  margin: 20px 0!important;
 }
 .bggray{
   background-color: #fafafa;
