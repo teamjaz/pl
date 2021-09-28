@@ -1723,7 +1723,6 @@ span{
 }
 .allul .noul1 ul {
   display: block;
-  /* align-items: center; */
   padding-left: 30px;
   margin-bottom: 0px;
 }
@@ -1788,7 +1787,10 @@ span{
 .allul ul li:nth-child(2) {
   margin-top: 15px;
 }
+
+
 /* 28-09-2021 */
+
 .noul2{
   margin: 20px 0;
 }
@@ -1800,6 +1802,9 @@ span{
   margin: 20px 0 20px 40px;
   font-weight: 600;
 }
+.noul2 li:last-child{
+  margin-bottom: 0px;
+}
 .noul2 li span{
   color: var(--gtxt);
   font-weight: 400;
@@ -1807,11 +1812,18 @@ span{
 .topHead{
   margin: 40px 0;
 }
+.inHead{
+  margin: 20px 0;
+}
 .bggray{
   background-color: #fafafa;
 }
+
+/* /////////// */
+
+
 .banner {
-  background-color: #5c5c5c;
+  background-color: #f2f2f2;
   width: 90%;
   height: 330px;
   display: flex;
@@ -2683,7 +2695,7 @@ span{
     font-size: 14px !important;
   }
 .areain{
-  padding: 10px 0;
+  padding: 40px 0;
 }
   .backbtn a {
     color: var(--lblue);
