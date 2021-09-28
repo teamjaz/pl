@@ -1788,6 +1788,24 @@ span{
 .allul ul li:nth-child(2) {
   margin-top: 15px;
 }
+/* 28-09-2021 */
+.noul2{
+  margin: 20px 0;
+}
+.noul2 li{
+  line-height: 30px;
+  font-size: 17px;
+  color: var(--dblue);
+  list-style: disc;
+  margin: 20px 0 20px 40px;
+  font-weight: 600;
+}
+.noul2 li span{
+  color: var(--gtxt);
+  font-weight: 400;
+}
+
+
 .banner {
   background-color: #5c5c5c;
   width: 90%;
